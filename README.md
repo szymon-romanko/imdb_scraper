@@ -4,6 +4,20 @@
 
 * requests https://pypi.org/project/requests/
 * beautifulsoup4  https://pypi.org/project/beautifulsoup4/
+* rich (only for examples) https://pypi.org/project/rich/
+
+Install with:
+`
+python -m pip install requests beautifulsoup4 rich
+`
+
+## Examples:
+
+There are 3 examples that show basic usage of the scraper.
+
+* search_movie.py - searches IMDb for a movie
+* top250_movies.py - scrapes the top 250 movies
+* show_movie_details.py - scrapes the full details of a movie
 
 ## imdb_scraper.get_top_250_movies()
 
